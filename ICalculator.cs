@@ -5,7 +5,7 @@ namespace WPFCalculatorWithClasses
 {
     public interface ICalculator
     {
-        // Чтобы ничего не забыть при создании нового класса калькулятора
+        // создаем интерфейс, чтобы все методы были точно реализованы, если будем создавать еще классы
         void doAction(Act action);
         void pressDotButton();
         void pressBackButton();
